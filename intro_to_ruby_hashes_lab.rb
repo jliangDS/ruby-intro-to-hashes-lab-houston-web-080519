@@ -1,14 +1,20 @@
+require 'pry'
 def new_hash
-
+  hash = {}
+  hash
 end
 
 def actor
-
+  actor = {
+    :name => "Dwayne The Rock Johnson" 
+  }
 end
 
 def monopoly
 	monopoly = {}
-
+	monopoly[:railroads] = {}
+  #key :railroads
+  #value empty hash
 end
 
 def monopoly_with_second_tier
